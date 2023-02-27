@@ -13,6 +13,8 @@ body {
     transition: padding 2s;
     cursor: pointer;
 
+    position: relative;
+    z-index: 2;
 }
 .card h2 {
     font-size: 4vh;
@@ -21,3 +23,5 @@ body {
 .card:hover {
     padding: 7vh 3vw;
 }
+
+

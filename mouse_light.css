@@ -1,0 +1,35 @@
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+}
+
+
+#light {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    translate: -50% -50%;
+    height: 300px;
+    width: 400px;
+    background: linear-gradient(
+        to bottom right,
+        red,
+        yellow
+    );
+    border-radius: 50%;
+
+    z-index: 1;
+
+
+    transition: top , left;
+
+
+
+    filter: blur(150px);
+    animation: rotate 30s infinite;
+}
