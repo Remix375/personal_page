@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(13, 13, 58);
+    text-align: center;
+}
+
+
+.card {
+    display: inline-block;
+    height: 50vh;
+    width: 25vw;
+    margin: 10vh 1vw;
+    background-color: antiquewhite;
+    transition: padding 2s;
+    cursor: pointer;
+
+}
+.card h2 {
+    font-size: 4vh;
+}
+
+.card:hover {
+    padding: 7vh 3vw;
+}
