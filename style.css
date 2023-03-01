@@ -1,27 +1,74 @@
+
+
+
+  
+
 body {
     background-color: rgb(13, 13, 58);
     text-align: center;
+    overflow: hidden;
 }
 
+.card div {
+    height: 99%;
+    width: 98%;
+    border-radius: 10px;
+    background-color: black;
+
+    position: absolute;
+    margin: auto;
+    display: block;
+    bottom: 0px;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    transition: padding 2s;
+}
 
 .card {
     display: inline-block;
     height: 50vh;
     width: 25vw;
     margin: 10vh 1vw;
-    background-color: antiquewhite;
+    border-radius: 10px;
+
+    --angle: 0deg;
+
+    background-image: linear-gradient(var(--angle), white, green, blue, magenta);
+
+    animation: 5s rot linear infinite;
+
     transition: padding 2s;
     cursor: pointer;
 
     position: relative;
     z-index: 2;
 }
-.card h2 {
-    font-size: 4vh;
+
+
+@keyframes rot {
+    from {
+        --angle: 0deg;
+    }
+    to {
+        --angle: 360deg;
+    }
+}
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
 }
 
-.card:hover {
-    padding: 7vh 3vw;
+
+.card div h2 {
+    font-size: 4vh;
+    margin: 0;
+}
+
+.card div:hover {
+    padding: .6vh .6vw;
 }
 
 

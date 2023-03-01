@@ -31,5 +31,6 @@
 
 
     filter: blur(150px);
-    animation: rotate 30s infinite;
+    animation: rotate 15s infinite;
+    opacity: 0;
 }
