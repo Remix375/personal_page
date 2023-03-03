@@ -11,8 +11,6 @@
 
 #light {
     position: absolute;
-    top: 50px;
-    left: 50px;
     translate: -50% -50%;
     height: 300px;
     width: 400px;
@@ -33,4 +31,18 @@
     filter: blur(150px);
     animation: rotate 15s infinite;
     opacity: 0;
+}
+
+#cursor {
+    position: absolute;
+
+    z-index: 5;
+    translate: -50% -50%;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: aqua;
+    opacity: 0;
+
+    pointer-events: none;
 }

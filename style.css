@@ -1,12 +1,14 @@
+html {
+    cursor: none;
+}
 
 
-
-  
 
 body {
     background-color: rgb(13, 13, 58);
     text-align: center;
     overflow: hidden;
+
 }
 
 .card div {
@@ -40,7 +42,6 @@ body {
     animation: 5s rot linear infinite;
 
     transition: padding 2s;
-    cursor: pointer;
 
     position: relative;
     z-index: 2;
@@ -69,6 +70,8 @@ body {
 
 .card div:hover {
     padding: .6vh .6vw;
+
+
 }
 
 
