@@ -7,18 +7,42 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="stylesheet" type="text/css" href="./mouse_light.css">
     <link rel="stylesheet" type="text/css" href="./nav.css">
+
+    <script src="https://kit.fontawesome.com/bfb86f04f2.js" crossorigin="anonymous"></script>
     
     <title>Rémi Guillou</title>
 </head>
 <body>
     <nav>
-        <div>
+        <div id="name_nav">
             <h3>Rémi Guillou</h3>
         </div>
 
-        <div id="socials">
-            <i></i>
-            <i></i>
+        <div id="navigation_nav">
+            <a href="#">
+                <h5 class="hover_elt">About</h5>
+            </a>
+
+            <a href="#">
+                <h5 class="hover_elt">Projects</h5>
+            </a>
+        </div>
+
+        <div id="socials_nav">
+            <a href="https://www.linkedin.com/in/r%C3%A9mi-guillou/" target="_blank">
+                <i class="fa-brands fa-linkedin hover_elt"></i>
+            </a>
+            <a href="https://www.youtube.com/c/Rémix375" target="_blank">
+                <i class="fa-brands fa-youtube hover_elt"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fa-brands fa-instagram hover_elt"></i>
+            </a>
+        </div>
+
+        <div id="language_nav">
+            <button id="eng_nav" class="hover_elt">English</button>
+            <button id="fr_nav" class="hover_elt">French</button>
         </div>
     </nav>
 
@@ -49,5 +73,6 @@
     <div id="light"></div>
     <div id="cursor"></div>
 </body>
+<script type="text/javascript" src="hover_effect.js"></script>
 <script type="text/javascript" src="./mouse_light.js"></script>
 </html>

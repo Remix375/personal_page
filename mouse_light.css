@@ -21,7 +21,7 @@
     );
     border-radius: 50%;
 
-    z-index: 1;
+    z-index: -1;
 
 
     transition: top , left;
@@ -31,12 +31,14 @@
     filter: blur(150px);
     animation: rotate 15s infinite;
     opacity: 0;
+
+    pointer-events: none;
 }
 
 #cursor {
     position: absolute;
 
-    z-index: 5;
+    z-index: 10;
     translate: -50% -50%;
     border-radius: 50%;
     height: 10px;
@@ -45,4 +47,5 @@
     opacity: 0;
 
     pointer-events: none;
+    
 }

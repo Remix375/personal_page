@@ -2,6 +2,7 @@
 const light = document.getElementById("light");
 const cursor = document.getElementById("cursor");
 
+
 let first = true;
 
 document.addEventListener('mousemove', function(x) {

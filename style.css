@@ -1,13 +1,21 @@
+
+
+
+
 html {
     cursor: none;
 }
 
+a {
+    cursor: none;
+}
 
 
 body {
     background-color: rgb(13, 13, 58);
     text-align: center;
     overflow: hidden;
+    margin: 0;
 
 }
 

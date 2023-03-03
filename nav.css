@@ -1,0 +1,119 @@
+@keyframes animatelogo {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
+
+nav {
+    position: relative;
+    z-index: 5;
+
+
+    display: flex;
+    width: 100%;
+
+
+
+
+    border: 1px solid rgba(189, 189, 189, 0.2);
+    background-color: rgb(13, 13, 58);
+
+    box-sizing: border-box;
+}
+
+nav * {
+    box-sizing: border-box;
+}
+
+nav > div {
+    padding: 1rem 4rem;
+
+    display: flex;
+    gap: 1rem;
+
+    border-left: 1px solid rgba(190, 190, 190, 0.2);
+
+}
+
+nav h3 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav h5 {
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-style: italic;
+}
+
+nav h5:hover {
+    color: white;
+}
+
+nav i {
+
+    background: linear-gradient(
+        90deg,
+        rgb(228, 255, 216), rgb(212, 252, 228),rgb(228, 255, 216), rgb(212, 252, 228)
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    background-size: 300% 100%;
+    animation: animatelogo 2s infinite linear;
+}
+
+nav i:hover {
+    color: white;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    margin: auto;
+}
+
+#name_nav {
+    flex-basis: 30%;
+    padding-left: 1rem;
+}
+#navigation_nav {
+    flex-basis: 30%;
+}
+#socials_nav {
+    flex-basis: 20%;
+}
+
+
+#language_nav {
+    gap: 0;
+}
+
+#language_nav button {
+    height: 3rem;
+    border: 0;
+    margin: auto 0;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 6rem;
+}
+
+#eng_nav {
+    background-color: white;
+    color: black;
+}
+
+#fr_nav {
+    background-color: rgb(8, 0, 117);
+    color: white;
+}
+
+button {
+    cursor: none;
+}
