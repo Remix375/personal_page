@@ -104,12 +104,12 @@ nav a {
     width: 6rem;
 }
 
-#eng_nav {
+#nav_lang_English {
     background-color: white;
     color: black;
 }
 
-#fr_nav {
+#nav_lang_French {
     background-color: rgb(8, 0, 117);
     color: white;
 }

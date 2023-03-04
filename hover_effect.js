@@ -1,5 +1,4 @@
 function hover_elt() {
-    console.log("ehidf")
     cursor.animate({height: "20px", width: "20px"}, {duration: 200, fill: "forwards"});
 }
 
