@@ -12,8 +12,8 @@
 #light {
     position: absolute;
     translate: -50% -50%;
-    height: 300px;
-    width: 400px;
+    height: 150px;
+    width: 200px;
     background: linear-gradient(
         to bottom right,
         red,
@@ -28,7 +28,7 @@
 
 
 
-    filter: blur(150px);
+    filter: blur(200px);
     animation: rotate 15s infinite;
     opacity: 0;
 
